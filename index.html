@@ -10,12 +10,15 @@
     
     <!-- Style -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <title>Start Bootstrap</title>
 </head>
 <body>
 
     <!-- NAVIGATION BAR -->
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-default nav-style">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -25,7 +28,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Brand</a>
+            <a class="navbar-brand nav-link" href="#">start bootstrap</a>
           </div>
       
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -33,9 +36,9 @@
             
             
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a class="nav-link" href="#">Portfolio</a></li>
+              <li><a class="nav-link" href="#">About</a></li>
+              <li><a class="nav-link" href="#">Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -130,8 +133,25 @@
     <!-- CONTACT ME -->
     <section class="contact-content">
         <div class="container">
-
-        </div>
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-3 col-sm-8 col-sm-offset-2 contact-box">
+                    <div class="form-group ">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control form-style" >
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email Adress</label>
+                        <input type="email" class="form-control form-style">
+                      </div>
+                      <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" class="form-control form-style">
+                      </div>
+                      <label for="phone">Message</label>
+                      <textarea class="form-control form-style" rows="3"></textarea>
+                </div>
+            </div>
+            
     </section>
 
     <!-- FOOTER -->
@@ -139,15 +159,47 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-4">
-                    <div class="footer-box"></div>
+                    <div>
+                        <h3>location</h3>
+                        <p>2215 John Daniel Drive Clark, MO</p>
+                        <p>54243</p>
+                    </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-4">
-                    <div class="footer-box"></div>
+                    <div class="middle-box-footer">
+                        <h3>around the web</h3>
+                        <ul>
+                            <li>
+                                <a href="#" class="icon-button">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="icon-button">
+                                <a href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="icon-button">
+                                <a href="#">
+                                <i class="fab fa-twitter"></i>
+                                </a>
+                             </li>
+                             <li class="icon-button">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-4">
-                    <div class="footer-box"></div>
+                    <div>
+                        <h3>about freelancer</h3>
+                        <p>Freelance is a free to use, open source</p>
+                        <p>Bootstrap theme created by <a href="#"> Start Bootstrap</a>  </p> 
+                    </div>
                 </div>
             </div>
         </div>
