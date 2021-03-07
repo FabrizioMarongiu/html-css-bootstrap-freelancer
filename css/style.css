@@ -15,10 +15,10 @@ main{
     padding: 50px 0;
 }
 
-.content-text {
+/* .content-text {
     min-width: 100%;
     height: 30px;
-}
+} */
 
 .footer-box{
     width: 60px;
@@ -75,6 +75,51 @@ main{
 }
     
     /* ----------------------------------------- */
+/* UTILITYES */
+body{
+    padding: 50px
+}
+
+h1,
+h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div.star{
+    text-align: center;
+}
+
+i.fas.fa-star{
+    transform: translatey(15%)
+}
+
+div.bar,
+div.black-bar{
+    width:10%;
+    height: 2px;
+    background-color: white;
+    border-radius:2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px auto;
+}
+
+div.black-bar{
+    background-color:#2c3e50;
+}
+
+div.bar:first-child,
+div.black-bar:first-child{
+    margin-right: 2%;
+}
+
+div.bar:last-child,
+div.black-bar:last-child{
+    margin-left: 2%;
+}
+
+
 /* NAV */
 nav.nav-style{
     color: white;
@@ -87,10 +132,52 @@ nav ul.navbar-nav.navbar-right a.nav-link{
     color: white;
 }
 
-/* {
+/* HEADER */
+div.thumbnail.header-style{
+    background-color: #1abc9c;
+    border: none;
     color: white;
-} */
+    text-align: center
+}
 
+div.thumbnail.header-style img{
+    max-width: 50%;
+}
+
+div.thumbnail.header-style div.bar{
+    width:18%;
+}
+
+
+/* MAIN */
+div.main-img{
+    margin: 10px 0;
+ }
+
+
+/* ABOUT */
+section.about{
+    color: white;
+}
+
+section.about div.col-xs-12.star{
+    text-align: center;
+}
+
+
+
+
+
+/* CONTACT ME */
+
+
+
+button.btn.btn-default.btn-send{
+    border-radius: 5px;
+    background-color:  #1abc9c;
+    color: white;
+    margin-top: 5px;
+}
 
 section.contact-content input.form-style,
 section.contact-content textarea.form-style{
